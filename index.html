@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>GlassMorphism</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<!--<meta http-equiv="refresh" content="2"> -->
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="card">
+			<div class="content">
+				<h2>01</h2>
+				<h3>Regular1</h3>
+				<div class="price">$100</div>
+				<ul>
+					<li>10 Websites</li>
+					<li>30gb SDD</li>
+					<li>Domain name1</li>
+				</ul>
+				<a href="#">Get Started</a>
+			</div>
+		</div>
+		<div class="card">
+			<div class="content">
+				<h2>02</h2>
+				<h3>Regular2</h3>
+				<div class="price">$200</div>
+				<ul>
+					<li>20 Websites</li>
+					<li>50gb SDD</li>
+					<li>Domain name2</li>
+				</ul>
+				<a href="#">Get Started</a>
+			</div>
+		</div>
+		<div class="card">
+			<div class="content">
+				<h2>03</h2>
+				<h3>Regular3</h3>
+				<div class="price">$300</div>
+				<ul>
+					<li>30 Websites</li>
+					<li>80gb SDD</li>
+					<li>Domain name3</li>
+				</ul>
+				<a href="#">Get Started</a>
+			</div>
+		</div>
+	</div>
+	<script src="vanilla-tilt.min.js"></script>
+	<script>
+		VanillaTilt.init(document.querySelectorAll(".card"),{
+			max: 25,
+			speed: 400,
+			glare: true,
+			"max-glare": 1
+		});
+	</script>
+</body>
+
+</html>
