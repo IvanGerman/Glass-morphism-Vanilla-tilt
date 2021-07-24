@@ -12,52 +12,38 @@
 </head>
 
 <body>
-	<div class="container">
-		<div class="card">
-			<div class="content">
-				<h2>01</h2>
-				<h3>Regular1</h3>
-				<div class="price">$100</div>
-				<ul>
-					<li>10 Websites</li>
-					<li>30gb SDD</li>
-					<li>Domain name1</li>
-				</ul>
-				<a href="#">Get Started</a>
+	<div class="wrapper">
+		<div class="container">
+			<div class="card" id="appName">
+				<div class="content" >
+					<h3 id="main-h3">KnowledgeSource</h3>
+					<br>
+					<h4>Your helper by studying and memorizing new learning materials</h4>
+				</div>
 			</div>
-		</div>
-		<div class="card">
-			<div class="content">
-				<h2>02</h2>
-				<h3>Regular2</h3>
-				<div class="price">$200</div>
-				<ul>
-					<li>20 Websites</li>
-					<li>50gb SDD</li>
-					<li>Domain name2</li>
-				</ul>
-				<a href="#">Get Started</a>
+			<div class="card" id="topics">
+				<div class="content" >
+					<h3>Topics</h3>
+					<br>
+					<h4>here are the main topics of your learning materials</h4>
+					<a href="#">Get Started</a>
+				</div>
 			</div>
-		</div>
-		<div class="card">
-			<div class="content">
-				<h2>03</h2>
-				<h3>Regular3</h3>
-				<div class="price">$300</div>
-				<ul>
-					<li>40 Websites</li>
-					<li>80gb SDD</li>
-					<li>Domain name3</li>
-				</ul>
-				<a href="#">Get Started</a>
+			<div class="card" id="stats">
+				<div class="content" >
+					<h3>Stats</h3>
+					<br>
+					<h4>some informations about the stuff you want to memorize</h4>
+					<a href="#">Get Started</a>
+				</div>
 			</div>
 		</div>
 	</div>
 	<script src="vanilla-tilt.min.js"></script>
 	<script>
 		VanillaTilt.init(document.querySelectorAll(".card"),{
-			max: 25,
-			speed: 400,
+			max: 17,
+			speed: 800,
 			glare: true,
 			"max-glare": 1
 		});
